@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>docx to html</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <h1>.docx to .html converter & downloader</h1>
+      </div>
+    </div>
+    <div class="container">
+        <div id="upload-area" class="center-button">
+            <input id="document" type="file" accept=".doc, .docx"/>
+            <label for="document">choose a .docx file</label>
+        </div>
+
+      <div class="row">
+          <div id="output" class="well">
+              <p><em>Select a .docx file to preview and download as HTML</em></p>
+          </div>
+      </div>
+    </div>
+
+    <script src="mammoth.browser.min.js"></script>
+    <script src="polyfills.js"></script>
+    <script src="lmb.js"></script>
+  </body>
+</html>
